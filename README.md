@@ -1,4 +1,4 @@
-# codeflair-task
+# sort contacts
 
 ## Project setup
 ```
