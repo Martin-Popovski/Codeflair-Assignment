@@ -36,16 +36,13 @@ export default {
   },
   computed: {
     filteredUsers() {
-      if (this.filterTerm.length >= 3) {
         return this.users.filter((user) => {
           const fullName = user.firstName + " " + user.lastName;
           return (
             fullName.toLowerCase().indexOf(this.filterTerm.toLowerCase()) !== -1
           );
         });
-      } else {
-        return this.users;
-      }
+      
     },
   },
   watch: {
