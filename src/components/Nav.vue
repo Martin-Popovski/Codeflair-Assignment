@@ -1,7 +1,7 @@
 <template>
   <header class="main-header">
     <nav>
-      <span>Codeflair Task</span>
+      <span>Sort users App</span>
     </nav>
   </header>
 </template>
